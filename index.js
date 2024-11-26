@@ -353,7 +353,7 @@ function verificarAutenticacao(req, resp, next) {
                     <div class="container text-center">
                         <h1>Você precisa estar logado para cadastrar produtos!</h1>
                         <p>Por favor, faça o login para continuar.</p>
-                        <a href="/login.html" class="btn btn-primary">Ir para o Login</a>
+                                    <a href="/login.html" class="btn btn-primary">Tentar novamente</a>
                     </div>
                 </body>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
