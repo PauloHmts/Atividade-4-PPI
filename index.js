@@ -168,8 +168,9 @@ function cadastrarProdutos(req, resp) {
 
         resp.write(`</tbody> 
             </table>
-<a class="btn btn-primary" href="/cadastrarProdutos">Continuar Cadastrando</a>
-            <a class="btn btn-secondary" href="/">Voltar para o Menu</a>                                <a class="nav-link disabled">Último acesso: ${dataHoraUltimoLogin}</a>
+            <a class="btn btn-primary" href="/cadastrarProdutos">Continuar Cadastrando</a>
+            <a class="btn btn-secondary" href="/">Voltar para o Menu</a>                              
+            <a class="nav-link disabled">Último acesso: ${dataHoraUltimoLogin}</a>
 
             </body>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -186,8 +187,7 @@ function cadastrarProdutos(req, resp) {
                 <body>
                     <div class="container text-center">
                         <h1 class="mb-5">Cadastro de Produtos</h1>
-                        <form method="POST" action="/cadastroProdutos" class="border p-3 row g-3" novalidate>
-            `);
+                        <form method="POST" action="/cadastroProdutos" class="border p-3 row g-3" novalidate>`);
 
         resp.write(`
                 <div class="col-md-4">
